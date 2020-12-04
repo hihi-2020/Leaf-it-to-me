@@ -13,14 +13,14 @@ const IndividualPlant = (props) => {
           return (
             <div key={plant.id}>
               <div className="individ-plant-main">
-                <h2 className="commonName">{plant.common_name}</h2>
-                <h3 className="commonName">{plant.species_name}</h3>
+                <h2 className="commonName">Name: {plant.common_name}</h2>
+                <h3 className="commonName">Species Name{plant.species_name}</h3>
 
                 <div className="careDetailWrapper"></div>
               
-              <div className="careDetail">                <img
-                  src={`https://www.amara.com/static/uploads/images-2/products/huge/156501/big-cactus-cushion-603972.jpg`}
-                />
+              <div className="careDetail">               
+               {/* <img src={`https://www.amara.com/static/uploads/images-2/products/huge/156501/big-cactus-cushion-603972.jpg`}/> */}
+               <img src={plant.img}/>
                 <ul className="">
                   
                   <li>{plant.water}</li>
