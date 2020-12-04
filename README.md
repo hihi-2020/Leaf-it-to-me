@@ -139,7 +139,11 @@ make pushbranch m='commitMessage'
 | ~~GET~~ | ~~/api/v1/plant/:name~~ | ~~shows individual plant with all details~~ | No additional db call necessary if we have all data in our global state 
 | GET | /api/v1/plants/saved | Gets the logged in persons plants from the users_plants DB
 | POST | /api/v1/plants/saved | Adds a plant to the users_plants DB (from the plants list or a newly created one)
+<<<<<<< HEAD
 | POST | /api/v1/image-upload | Adds an updoaded plant image as an AWS http string to the plants DB 
+=======
+| POST | /api/v1/image-upload | Adds an updoaded plant image as an AWS http string to the plants DB
+>>>>>>> 7ce175ec6e8607e973712fd857b7675ddbdd8061
 |---|---|---|---|
 
 # API Request and response bodies

@@ -2,6 +2,7 @@ import { retrievePlants, addPlantImage, addPlantData } from "../apis/plants"
 
 export const SET_PLANTS = 'SET_PLANTS'
 export const ADD_PLANT = 'ADD_PLANT'
+// export const SET_LOADED = 'SET_LOADED'
 
 export const setPlants = (plants) => {
   return {
@@ -45,3 +46,8 @@ export function addPlant (plantImage, plantData) {
       })
   }
 }
+// export const setLoaded = () => {
+//   return {
+//     type: SET_LOADED
+//   }
+// }
