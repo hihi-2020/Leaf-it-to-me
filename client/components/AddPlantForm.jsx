@@ -39,6 +39,7 @@ class AddPlantForm extends React.Component {
     }
 
     this.props.dispatch(addPlant(plantImage, plantData))
+    this.props.history.push('/')
   }
 
   render () {
