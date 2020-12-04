@@ -7,9 +7,11 @@ exports.seed = function(knex) {
           id: 1, 
           common_name: 'Monstera', 
           species_name: 'Monstera deliciosa', 
-          water: '', light: 'bright spot, indirect sunlight', 
-          temp: '', humidity: 'adaptable, likes a mist spray once a week', 
-          soil: '', 
+          water: 'Once a week', 
+          light: 'Thrives in bright to medium indirect light', 
+          temp: '18°C-30°C',
+          humidity: 'Adaptable, but prefers humid conditions so mist once a week', 
+          soil: 'Requires rich, nutrient rich dense soil that holds moisture', 
           lvl: 'beginner', 
           more: '', 
           img: ''
@@ -17,7 +19,7 @@ exports.seed = function(knex) {
         {
           id: 2, 
           common_name: 'Fittonia', 
-          species_name: '', 
+          species_name: 'Fittonia argyroneura', 
           water: '', 
           light: '', 
           temp: '', 
