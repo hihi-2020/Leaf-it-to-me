@@ -18,7 +18,6 @@
     "dev:client": "npm run webpack -- --watch",
     "dev:server": "nodemon --watch server server/index.js",
     "build": "run-p build:client build:server build:server",
-    // "build": "rm -rf ./dist && webpack -p",
     "build:client": "npm run webpack -- --mode=production",
     "build:server": "npm run knex migrate:latest",
     "build:webpack": "run-p build:client build:server",
